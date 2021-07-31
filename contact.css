@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar */
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background: white;
+    color: black;
+}
+.navbar-nav{
+    padding-right: 100px;
+}
+@media screen and (max-width: 640px) {
+    .nav-item{
+        background: black;
+    }
+    .logo{
+        width: 200px;
+        height: 40px;
+    }
+}
+
+
+/* image text */
+.mainimg{
+    height: 500px;
+    width: 100%;
+}
+.homelink{
+    color: white;
+    font-weight: bold;
+}
+.homelink:hover{
+    text-decoration: none;
+    color: #0D362E;
+}
+.main-text{
+    position: absolute;
+    top:300px;
+    left: 60px;
+    width: 35%;
+    color:white;
+}
+@media screen and (max-width: 640px){
+    .main-text{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        width: 250px;
+        text-align: center;
+    }
+    .main-text h1 {        
+        font-size: 25px;
+        word-spacing: 5px;
+    }
+    .mainimg{
+        height: 400px;
+    }
+    .main-text p{
+        font-size: 15px;
+    }
+}
+
+
+/* form */
+.firstname{
+    margin-top: 80px;
+    padding-left: 200px;
+}
+.lastname{
+    margin-top: 80px;
+    padding-right: 200px;
+}
+
+.company{
+    margin-top: 20px;
+    padding-left: 200px;
+}
+.enquiry{
+    margin-top: 20px;
+    padding-right: 200px;
+}
+
+.email{
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.messagefield{
+    height: 120px;
+}
+
+@media screen and (max-width:640px) {
+    .firstname{
+        margin-top: 80px;
+        padding: 0 10px;
+    }
+    .lastname, .enquiry, .company, .email{
+        margin-top: 20px;
+        padding:0 10px;
+    }
+}
+.label{
+    font-size: large;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    padding:0 20px
+}
+ .text{
+     margin-top: 30px;
+     padding-left: 200px;
+     padding-right: 200px;
+ }
+
+ .link{
+     text-decoration: none;
+     color: black;
+     border-bottom: 3px solid #0D362E;
+ }
+ .link:hover{
+     color:#0D362E;
+     text-decoration: none;
+ }
+
+ .location{
+     margin-top: 100px;
+     border-top: 5px solid black;
+ }
+@media screen and (max-width:640px) {
+    .text{
+        margin-top: 20px;
+        padding: 0px 10px;
+    }
+}
+
+
+
+ .joinus{
+     margin-top: 100px;
+     border-top: 5px solid black;
+ }
+ .jointext{
+     margin-top: 80px;
+     padding: 0 320px;
+ }
+ @media screen and (max-width: 640px) {
+     .jointext{
+         padding: 0 10px;
+     }
+ }
+
+
+
+
+
+
+
+
+ .contactus{
+    margin-top: 100px;
+    border-top: 4px solid black;
+}
+
+.row6{
+    margin-top: 50px;
+}
+
+.contactus .row .col-lg-6 a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid #0D362E;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contactus .row .col-lg-6 a:hover{
+    color: #0D362E;
+}
+
+@media screen and (max-width: 640px) {
+    .contactus{
+        text-align: center;
+    }    
+}
+
+
+.worklink{
+    text-decoration: none;
+    color: black;
+}
+
+.worklink:hover{
+    text-decoration: none;
+    color: #0D362E;
+    cursor: pointer;
+}
+
+.footlink{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+@media screen and (max-width:650px) {
+    .footer-text{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
