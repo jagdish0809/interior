@@ -25,6 +25,11 @@ html{
     padding-right: 100px;
 }
 
+.navbar-toggler{
+    color: black;
+    background-color: black;
+}
+
 @media screen and (max-width: 640px) {
     .nav-item{
         background: black;
