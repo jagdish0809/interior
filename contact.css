@@ -22,14 +22,20 @@ html{
 .navbar-nav{
     padding-right: 100px;
 }
+.logo{
+    width: 280px;
+}
+
 @media screen and (max-width: 640px) {
     .nav-item{
         background: black;
     }
-    .logo{
-        width: 200px;
+    .logo {
+        width: 170px;
         height: 40px;
-    }
+        margin-left: 50%;
+        margin-right: 50%;
+      }
 }
 
 
