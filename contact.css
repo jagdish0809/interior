@@ -28,8 +28,12 @@ html{
 
 @media screen and (max-width: 640px) {
     .nav-item{
-        background: black;
+        background: transparent;
     }
+    .nav-link{
+        text-align: center;
+        margin-left: 90px;
+      }
     .logo {
         width: 170px;
         height: 40px;
@@ -50,7 +54,7 @@ html{
 }
 .homelink:hover{
     text-decoration: none;
-    color: #0D362E;
+    color: #DC9036;
 }
 .main-text{
     position: absolute;
@@ -104,8 +108,9 @@ html{
     padding-left: 200px;
     padding-right: 200px;
 }
-.messagefield{
-    height: 120px;
+textarea{
+    width: 100%;
+    height: 100px;
 }
 
 @media screen and (max-width:640px) {
@@ -135,11 +140,13 @@ input{
 
  .link{
      text-decoration: none;
-     color: black;
+     font-size: 18px;
+     font-weight: bold;
+     color: #0D362E;
      border-bottom: 3px solid #0D362E;
  }
  .link:hover{
-     color:#0D362E;
+     color:#DC9036;
      text-decoration: none;
  }
 
@@ -184,25 +191,17 @@ input{
 
 .row6{
     margin-top: 50px;
+    margin-left: 200px;
 }
 
-.contactus .row .col-lg-6 a{
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px solid #0D362E;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.contactus .row .col-lg-6 a:hover{
-    color: #0D362E;
-}
 
 @media screen and (max-width: 640px) {
     .contactus{
         text-align: center;
-    }    
+    }
+    .row6{
+        margin: 0;
+    }
 }
 
 
