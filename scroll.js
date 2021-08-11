@@ -1,4 +1,4 @@
-console.log('hello')
+
 
 $(document).ready(function(){
     $(window).scroll(function(){
@@ -10,3 +10,21 @@ $(document).ready(function(){
         }
     })
 })
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 20){
+            $(".top_btn").css({"display":"block"});
+        }
+        else{
+            $(".top_btn").css({"display":"none"}) ;
+        }
+    })
+})
+
+
+
+
+
+
+
