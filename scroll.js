@@ -22,7 +22,10 @@ $(document).ready(function(){
     })
 })
 
-
+const click = document.getElementsByTagName("nav")
+function myFunction() {
+    style.background = "#0D362E"
+}
 
 
 
