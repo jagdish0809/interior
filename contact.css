@@ -46,7 +46,7 @@ html{
 
 .top_btn{
     background-color: #0d362e;
-    /* display: none; */
+    display: none;
     color: #DC9036;
     position: fixed;
     bottom: 20px;
