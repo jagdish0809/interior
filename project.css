@@ -196,10 +196,11 @@ html {
 
 @media screen and (max-width: 640px) {
   .test1container{
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .testtitle{
     font-size: 25px;
+    margin-top: 40px;
   }
   .testtext1{
     margin-top: 20px;
@@ -250,6 +251,7 @@ html {
 @media screen and (max-width: 640px) {
   .contactus {
     text-align: center;
+    margin-top: 50px;
   }
 }
 
@@ -279,6 +281,6 @@ html {
     text-align: center;
   }
   .contactusrow2 {
-    margin: 0;
+    margin-left: 0;
   }
 }

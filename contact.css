@@ -218,50 +218,65 @@ input{
 
 
 
- .contactus{
+ .contactus {
     margin-top: 100px;
     border-top: 4px solid black;
-}
-
-.row6{
+  }
+  
+  .row {
+    margin-top: 50px;
+  }
+  .contactusrow2{
     margin-top: 50px;
     margin-left: 200px;
-}
-
-
-@media screen and (max-width: 640px) {
-    .contactus{
-        text-align: center;
+  }
+  .contactus .row .col-lg-6 a {
+    text-decoration: none;
+    color:#0d362e;
+    border-bottom: 3px solid #0d362e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .contactus .row .col-lg-6 a:hover {
+    color: #DC9036;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .contactus {
+      text-align: center;
+      margin-top: 50px;
     }
-    .row6{
-        margin: 0;
-    }
-}
-
-
-.worklink{
+  }
+  
+  .worklink {
     text-decoration: none;
     color: black;
-}
-
-.worklink:hover{
+  }
+  
+  .worklink:hover {
     text-decoration: none;
-    color: #0D362E;
+    color: #0d362e;
     cursor: pointer;
-}
-
-.footlink{
+  }
+  
+  .footlink {
     text-decoration: none;
     color: black;
     font-size: 13px;
-}
-
-@media screen and (max-width:650px) {
-    .footer-text{
-        margin-bottom: 20px;
-        text-align: center;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .footer-text {
+      margin-bottom: 20px;
+      text-align: center;
     }
-    .copyright{
-        text-align: center;
+    .copyright {
+      text-align: center;
     }
-}
+    .contactusrow2{
+      margin-left: 0;
+    }
+  }
+  

@@ -129,6 +129,11 @@ html {
 }
 
 @media screen and (max-width: 640px) {
+  .aboutdetail{
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 4px solid #000;
+  }
   .abouttext {
     text-align: center;
     margin-top: 0;
@@ -149,9 +154,11 @@ html {
 .storytext {
   color: white;
   background-color: #0d362e;
+  padding-top: 30px;
 }
 .storytext1 {
   padding: 22px 60px 0px 40px;
+  margin-left: 10px;
 }
 .storyimg {
   height: 450px;
@@ -160,12 +167,15 @@ html {
 }
 
 @media screen and (max-width: 640px) {
+  .storycontainer{
+    margin-top: 50px;
+  }
   .storyimg {
     height: 250px;
   }
   .storytext1 {
     text-align: center;
-    padding: 40px 20px 10px 10px;
+    padding: 10px 20px 10px 20px;
   }
 }
 
@@ -210,7 +220,6 @@ html {
 .commit {
   margin-top: 30px;
   border-top: 4px solid rgb(32, 29, 29);
-
   border-bottom: 4px solid rgb(32, 29, 29);
   padding-bottom: 100px;
 }
@@ -225,6 +234,7 @@ html {
 .browse {
   margin-top: 100px;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 .browsetext {
   padding-left: 200px;
@@ -246,6 +256,15 @@ html {
     width: 100%;
     height: 250px;
   }
+  .browse{
+    margin-top: 50px;
+  }
+  .commit{
+    padding-bottom: 50px;
+  }
+  .headcommit{
+    margin-top: 40px;
+  }
 }
 
 /* contactus and footer */
@@ -259,12 +278,25 @@ html {
 }
 .contactusrow2{
   margin-top: 50px;
-  margin-left: 200px ;
+  margin-left: 200px;
+}
+.contactus .row .col-lg-6 a {
+  text-decoration: none;
+  color:#0d362e;
+  border-bottom: 3px solid #0d362e;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contactus .row .col-lg-6 a:hover {
+  color: #DC9036;
 }
 
 @media screen and (max-width: 640px) {
   .contactus {
     text-align: center;
+    margin-top: 50px;
   }
 }
 
