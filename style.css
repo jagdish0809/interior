@@ -24,20 +24,18 @@ html {
   padding-right: 100px;
 }
 
-.logo{
-    width: 280px;
+.logo {
+  width: 280px;
 }
 
 @media screen and (max-width: 640px) {
   .nav-item {
     background: transparent;
-    
   }
-  .nav-link{
+  .nav-link {
     text-align: center;
-    
-     margin-left: 90px;
-    
+
+    margin-left: 90px;
   }
   .logo {
     width: 170px;
@@ -49,10 +47,10 @@ html {
 
 /* <!--- scroll back to top button start----> */
 
-.top_btn{
+.top_btn {
   background-color: #0d362e;
   display: none;
-  color: #DC9036;
+  color: #dc9036;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -61,7 +59,7 @@ html {
   width: 70px;
   font-size: 35px;
   border: none;
-  outline: none;  
+  outline: none;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
@@ -71,6 +69,9 @@ html {
 
 .carousel-item {
   height: 650px;
+}
+.carousel-item {
+  filter: brightness(50%);
 }
 
 @media screen and (max-width: 640px) {
@@ -137,12 +138,12 @@ html {
   font-weight: bold;
   font-size: large;
   text-decoration: none;
-  color: #0d362e;
+  color: #fff;
   border-bottom: 3px solid #0d362e;
 }
 
 .link:hover {
-  color: #DC9036;
+  color: #dc9036;
   text-decoration: none;
 }
 
@@ -156,7 +157,7 @@ html {
 }
 
 .link2:hover {
-  color: #DC9036;
+  color: #dc9036;
   text-decoration: none;
 }
 
@@ -169,7 +170,7 @@ html {
   padding-top: 45px;
 }
 
-figcaption{
+figcaption {
   font-size: 18px;
 }
 
@@ -187,10 +188,11 @@ figcaption:hover {
   .viewpro {
     margin-top: 0px;
   }
-  .projects{
+  .projects {
     margin-top: 50px;
   }
-  .projects, .projects-img{
+  .projects,
+  .projects-img {
     padding-top: 0;
   }
 }
@@ -203,7 +205,7 @@ figcaption:hover {
 }
 
 .viewpro2:hover {
-  color: #DC9036;
+  color: #dc9036;
   text-decoration: none;
 }
 
@@ -217,7 +219,6 @@ figcaption:hover {
     margin-bottom: 20px;
   }
 }
-
 
 .research {
   border-top: 5px solid #000;
@@ -238,10 +239,10 @@ figcaption:hover {
     display: block;
     width: 100%;
   }
-  .research{
+  .research {
     margin-top: 40px;
   }
-  .textresearch{
+  .textresearch {
     margin-top: 30px;
   }
 }
@@ -251,7 +252,6 @@ figcaption:hover {
     width: 33.33333%;
   }
 }
-
 
 .content {
   position: relative;
@@ -351,13 +351,13 @@ figcaption:hover {
 .row {
   margin-top: 50px;
 }
-.contactusrow2{
+.contactusrow2 {
   margin-top: 50px;
   margin-left: 200px;
 }
 .contactus .row .col-lg-6 a {
   text-decoration: none;
-  color:#0d362e;
+  color: #0d362e;
   border-bottom: 3px solid #0d362e;
   font-size: 18px;
   font-weight: bold;
@@ -365,7 +365,7 @@ figcaption:hover {
 }
 
 .contactus .row .col-lg-6 a:hover {
-  color: #DC9036;
+  color: #dc9036;
 }
 
 @media screen and (max-width: 640px) {
@@ -400,7 +400,7 @@ figcaption:hover {
   .copyright {
     text-align: center;
   }
-  .contactusrow2{
+  .contactusrow2 {
     margin-left: 0;
   }
 }

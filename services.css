@@ -69,6 +69,23 @@ html {
   border-radius: 50%;
 }
 
+
+.mainimg {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.homelink {
+  color: white;
+  font-weight: bold;
+}
+.homelink:hover {
+  text-decoration: none;
+  color: #dc9036;
+}
+
+
 /* <!--- scroll back to top button ends ----> */
 .ourservices {
   margin-top: 40px;
